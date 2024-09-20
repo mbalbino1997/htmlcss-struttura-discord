@@ -36,8 +36,7 @@ header {
     display: flex;
     justify-content: center;
     gap:10px;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
+    
     padding: 6px 0;
     flex-grow:2;
 }
@@ -53,13 +52,88 @@ header {
     background-color: rgb(9, 219, 238);
     
 }
-
-.item-header.debug{
+.debug.second {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+.debug.section-1 {
+    background-color: blue;
+    padding:30px 0;
+}
+.debug.sectiondiv-1 {
+    background-color:rgb(165, 12, 158);
+    min-height: 100px;
+    
+    border:2px solid black;
+}
+.debug.section-2 {
+    background-color: rgb(240, 238, 236);
     
 }
+
+
+.debug.col-66{
+    min-height: 250px;
+    background-color: rgb(7, 7, 152);
+    border: 2px solid black;
+}
+.debug.col-33{
+    background-color: rgb(228, 169, 179);
+    border:2px solid black;
+    
+}
+.debug#reverse-color-1{
+    background-color: rgb(228, 169, 179);
+}
+.debug#reverse-color-2{
+    background-color: rgb(7, 7, 152);
+}
+.debug#different-color {
+    background-color: grey;
+}
+
+
+
 .first {
     flex-grow:1;
 }
 .header-container :last-child {
     text-align: right;
 }
+
+/* section-1 */
+
+.container.sectiondiv-1 {
+    display: flex;
+    aspect-ratio: 3/1;
+    max-width: 750px;
+    
+
+}
+.container.sectiondiv-2 {
+    padding:0;
+}
+section .section-1 {
+    padding:10px 0;
+}
+.row.section-2 {
+    display:flex;
+    padding: 30px 0;
+}
+
+.col-66 {
+    background-color: rgb(7, 7, 152);
+    flex-grow: 2;
+    
+}
+.col-33 {
+    background-color: rgb(228, 169, 179);
+    flex-grow:1;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+    background-color: gray;
+    
+}
+
