@@ -20,10 +20,14 @@ img {
     max-width: 900px;
     margin:0 auto;
     padding:0 2rem;
+    
+}
+header {
+    padding:10px 0;
 }
 
 .header-container {
-    height: 50px;
+    padding:0 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,12 +36,17 @@ img {
     display: flex;
     justify-content: center;
     gap:10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 6px 0;
+    flex-grow:2;
 }
 
 /* debug */
 .debug.header-container {
-    
+    background-color: orange;
     border: 2px solid black;
+    
 
 }
 .debug.header {
@@ -46,12 +55,11 @@ img {
 }
 
 .item-header.debug{
-    background-color: orange;
-    border: 2px solid black;
+    
 }
 .first {
     flex-grow:1;
 }
-.second {
-    flex-grow:2;
+.header-container :last-child {
+    text-align: right;
 }
