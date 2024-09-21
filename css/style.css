@@ -45,6 +45,7 @@ header {
 .debug.header-container {
     background-color: orange;
     border: 2px solid black;
+    min-height: 50px;
     
 
 }
@@ -70,6 +71,10 @@ header {
     background-color: rgb(240, 238, 236);
     
 }
+.debug#div-section-3 {
+    min-height: 450px;
+    background-color: green;
+}
 
 
 .debug.col-66{
@@ -93,6 +98,31 @@ header {
 }
 .debug#reverse {
     background-color: gray;
+}
+.debug#section-3 {
+    background-color: gray;
+}
+.debug.col-33.background-small {
+    min-height:450px;
+    background-color: rgb(6, 106, 49);
+
+}
+.debug.col-66.background-big {
+    background-color: rgb(169, 72, 104);
+}
+.debug#dark-background {
+    background-color: rgb(52, 48, 48);
+}
+footer.debug {
+    background-color: rgb(52, 48, 48);
+    border-top: 2px solid white;
+}
+.debug.row.section-2#full-background {
+    background-color: rgb(52, 48, 48);
+
+}
+.debug.header-container#light-background {
+    background-color: aqua;
 }
 
 
@@ -138,5 +168,19 @@ section .section-1 {
     flex-direction: row-reverse;
     
     
+}
+.container#div-section-3 {
+    max-width: 900px;
+}
+footer {
+    padding:10px 0;
+}
+#light-background {
+    justify-content: space-between;
+}
+.item-header.first.nogrow {
+    flex-grow: 0;
+    background-color: lightgray;
+    padding:5px;
 }
 
