@@ -91,6 +91,9 @@ header {
 .debug#different-color {
     background-color: grey;
 }
+.debug#reverse {
+    background-color: gray;
+}
 
 
 
@@ -122,18 +125,18 @@ section .section-1 {
 }
 
 .col-66 {
-    background-color: rgb(7, 7, 152);
+    
     flex-grow: 2;
     
 }
 .col-33 {
-    background-color: rgb(228, 169, 179);
+    
     flex-grow:1;
 }
 
 #reverse {
     flex-direction: row-reverse;
-    background-color: gray;
+    
     
 }
 
